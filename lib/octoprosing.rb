@@ -1,5 +1,5 @@
 require "octoprosing/version"
+require 'octoprosing/post'
 
 module Octoprosing
-  # Your code goes here...
 end

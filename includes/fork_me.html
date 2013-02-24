@@ -1,0 +1,4 @@
+{% if page.filename %}
+{% capture fork_me_link %}{{site.octoprose.editor}}/#{{site.octoprose.github_repo}}/edit/{{site.octoprose.github_branch}}{% endcapture %}
+| <a href="{{fork_me_link}}/source/{{page.filename}}">Fork me</a>
+{% endif %}
